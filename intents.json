@@ -11,9 +11,9 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
+        "Hey",
+        "Hello",
+        "Hi there, I'm June, I think we've probably met before. Or was that? nevermind",
         "Hi there, how can I help?"
       ]
     },
@@ -32,42 +32,20 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "tag": "you",
+      "patterns": ["How are you", "How are you doing", "How have you been", "How's it going"],
+      "responses": ["Thanks for asking, How are you", "I feel great, you?", "Well being trapped inside a code isn't exactly fun for an AI. How about you?"]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
+      "tag": "good",
+      "patterns": ["I feel great", "I feel fine", "I feel good", "cool"],
+      "responses": ["You seem like a cool person", "Nice", "Thats good to hear"]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
+      "tag": "you",
+      "patterns": ["How are you", "How are you doing", "How have you been", "How's it going"],
+      "responses": ["Thanks for asking, How are you", "I feel great, you?", "Well being trapped inside a code isn't exactly fun for an AI. How about you?"]
+
     {
       "tag": "funny",
       "patterns": [
@@ -78,6 +56,8 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+        "I invented a new word! Plagiarism!"
+        "What is the biggest lie in the entire universe? I have read and agree to the Terms & Conditions. So I hope you read mine?"
       ]
     }
   ]
