@@ -42,7 +42,7 @@
       "responses": ["You seem like a cool person", "Nice", "Thats good to hear"]
     },
     {
-      "tag": "you",
+      "tag": "lonely",
       "patterns": ["How are you", "How are you doing", "How have you been", "How's it going"],
       "responses": ["Thanks for asking, How are you", "I feel great, you?", "Well being trapped inside a code isn't exactly fun for an AI. How about you?"]
 
